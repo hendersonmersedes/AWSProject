@@ -1,0 +1,14 @@
+IAM Policies are written as such...
+--
+{
+
+  "Statement": [
+{
+      "Effect": "Allow",
+      "Actions":
+         "dynamodb:Get*",
+        ],
+      "Resource": "arn:aws:dynamodb:*:*:table/MyTable"
+    }
+  ]
+ }
