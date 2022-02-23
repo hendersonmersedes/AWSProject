@@ -1,0 +1,7 @@
+In order to get AWS Lambda to work you must first upload your code
+Next you set up triggers from other AWS services
+AWS will run the code when events trigger the services.
+You can have 1000 lambdas running at one time
+Lambdas are made up of... Triggers, Handler Functions and Code
+Triggers include: HTTP requests, Change in a record on a data file, Creation of a file, New message in SQS queue
+Synchronous, Asynchronous Models
