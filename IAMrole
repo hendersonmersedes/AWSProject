@@ -1,0 +1,2 @@
+Create a new role in the json file using the command:
+<p><i> aws iam create-role-policy-document file://assume-role-policy.json</i></p>
